@@ -12,7 +12,7 @@ struct WakingUpModel: Identifiable {
         } else {
             return nil
         }
-        self.title = title
+        self.title = title.trimmingCharacters(in: CharacterSet(charactersIn: "\""))
         self.duration = Int(duration) ?? 0
         self.id = UUID()
     }

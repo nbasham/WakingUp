@@ -12,9 +12,9 @@
 		209868B82B2E261B00F44504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209868B72B2E261B00F44504 /* Assets.xcassets */; };
 		209868BB2B2E261B00F44504 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209868BA2B2E261B00F44504 /* Preview Assets.xcassets */; };
 		209868C22B2E262500F44504 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209868C12B2E262500F44504 /* Utility.swift */; };
-		209868C42B2E265600F44504 /* wakingup.csv in Resources */ = {isa = PBXBuildFile; fileRef = 209868C32B2E265600F44504 /* wakingup.csv */; };
 		209868C62B2E28DD00F44504 /* WakingUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209868C52B2E28DD00F44504 /* WakingUpModel.swift */; };
 		209868C82B2E2BD800F44504 /* WakingUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209868C72B2E2BD800F44504 /* WakingUpView.swift */; };
+		209868CA2B2E309F00F44504 /* wakingup.csv in Resources */ = {isa = PBXBuildFile; fileRef = 209868C92B2E309F00F44504 /* wakingup.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,9 +24,9 @@
 		209868B72B2E261B00F44504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		209868BA2B2E261B00F44504 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		209868C12B2E262500F44504 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
-		209868C32B2E265600F44504 /* wakingup.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = wakingup.csv; path = ../../../../Downloads/wakingup.csv; sourceTree = "<group>"; };
 		209868C52B2E28DD00F44504 /* WakingUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakingUpModel.swift; sourceTree = "<group>"; };
 		209868C72B2E2BD800F44504 /* WakingUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakingUpView.swift; sourceTree = "<group>"; };
+		209868C92B2E309F00F44504 /* wakingup.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wakingup.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +59,12 @@
 		209868B22B2E261800F44504 /* WakingUp */ = {
 			isa = PBXGroup;
 			children = (
+				209868C92B2E309F00F44504 /* wakingup.csv */,
+				209868B52B2E261800F44504 /* ContentView.swift */,
+				209868C12B2E262500F44504 /* Utility.swift */,
 				209868B32B2E261800F44504 /* WakingUpApp.swift */,
 				209868C52B2E28DD00F44504 /* WakingUpModel.swift */,
 				209868C72B2E2BD800F44504 /* WakingUpView.swift */,
-				209868B52B2E261800F44504 /* ContentView.swift */,
-				209868C12B2E262500F44504 /* Utility.swift */,
-				209868C32B2E265600F44504 /* wakingup.csv */,
 				209868B72B2E261B00F44504 /* Assets.xcassets */,
 				209868B92B2E261B00F44504 /* Preview Content */,
 			);
@@ -139,7 +139,7 @@
 			files = (
 				209868BB2B2E261B00F44504 /* Preview Assets.xcassets in Resources */,
 				209868B82B2E261B00F44504 /* Assets.xcassets in Resources */,
-				209868C42B2E265600F44504 /* wakingup.csv in Resources */,
+				209868CA2B2E309F00F44504 /* wakingup.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
