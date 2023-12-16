@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct WakingUpApp: App {
+    let models: [WakingUpModel]
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(models: models)
         }
+    }
+
+    init() {
+        models = WakingUpModel.load()
     }
 }
