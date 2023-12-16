@@ -6,12 +6,19 @@ struct WakingUpView: View {
     var body: some View {
         ScrollView {
             ForEach(models) { model in
-                Text(model.title)
+                HStack {
+                    Text(model.title)
+                    Spacer()
+                    Text(model.date.formatted(date: .abbreviated, time: .omitted))
+                    Spacer()
+                    Text("\(model.duration)")
+                }
             }
         }
+        .padding()
     }
 }
 
 #Preview {
-    WakingUpView(models: [])
+    WakingUpView(models: WakingUpModel.load())
 }
